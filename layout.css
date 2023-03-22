@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600&display=swap');
+h1 {
+text-align: center;
+font-size:50px;
+color:skyblue;
+font-family: 'Noto Serif KR', serif;
+}
+body {
+font-family: 'Noto Serif KR', serif;
+margin: 0px;
+padding: 0px;
+}
+img { display : block; margin : auto;}
+
+#navigation {
+font-family: 'Noto Serif KR', serif;
+background-color:#FDF5E6;
+padding:10px;
+width:100%;
+box-sizing:border-box;
+text-align: center;
+}
+#content {
+
+background-color:#FDF5E6;
+
+box-sizing:border-box;
+text-align: center;
+}
+
+#main_content {
+    background-image: url("/cloud.jpg");
+    background-color:#FDF5E6;
+    
+    padding:5px;
+    width:100%;
+    box-sizing:border-box;
+    text-align: center;
+    }
+
+#footer {
+width:100%;
+box-sizing:border-box;
+text-align: center;
+}
+
+#navigation ul {
+margin:0;
+padding:0;
+}
+
+#navigation ul li {
+display:inline;
+height:25px;
+margin-left:25px;
+list-style:none;
+color:white;
+}
+
+#navigation li ul {
+margin:0;
+padding:0;
+display:none;
+}
+
+#navigation li:hover ul {
+display:block;
+width:150px;
+background-color:#FFFFF0;
+}
+#navigation ul li {
+position:relative;
+}
+
+#navigation li ul {
+position:absolute;
+left:5px;
+top:20px;
+}
+
+#navigation li a {
+color:black;
+text-decoration:none;
+}
+
+#navigation li a:hover {
+text-decoration:underline;
+color:#2E8B57;
+}
+
+#navigation li ul li {
+margin-left:0px;
+}
+
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+
+}
+
+li {
+display:inline;
+padding:5px;
+}
